@@ -3,7 +3,6 @@ import pprint
 from langchain_core.prompts import ChatPromptTemplate
 from chat_factory import get_Anthropic
 from output_parsers import CompanyInfoOutputParser
-from langchain.chains import LLMChain
 from langchain.output_parsers import PydanticOutputParser
 from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv 
